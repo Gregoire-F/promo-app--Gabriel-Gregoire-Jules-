@@ -42,6 +42,14 @@ header h1 {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.student-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.16);
+  border-color: rgba(15, 23, 42, 0.15);
 }
 
 .student-card h2 {
