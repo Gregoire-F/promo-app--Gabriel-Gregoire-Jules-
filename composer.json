@@ -2,7 +2,7 @@
     "name": "g.frou/promo-app-gabriel-gregoire-jules",
     "autoload": {
         "psr-4": {
-            "GFrou\\PromoAppGabrielGregoireJules\\": "src/"
+            "PromoAppGabrielGregoireJules\\": "src/"
         }
     },
     "authors": [
