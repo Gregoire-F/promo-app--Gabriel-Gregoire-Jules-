@@ -1,0 +1,15 @@
+{
+    "name": "g.frou/promo-app-gabriel-gregoire-jules",
+    "autoload": {
+        "psr-4": {
+            "GFrou\\PromoAppGabrielGregoireJules\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregoire-F",
+            "email": "gregoire.frou@gmail.com"
+        }
+    ],
+    "require": {}
+}
