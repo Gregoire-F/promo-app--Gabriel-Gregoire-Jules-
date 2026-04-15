@@ -7,4 +7,4 @@ $students = $studentsRepository->findAll();
 
 $loader = new \Twig\Loader\FilesystemLoader('templates'); // définit le rep de stockage des fichiers Twig
 $twig = new \Twig\Environment($loader); // crée un objet Twig
-echo $twig->render('student.html', ['student' => $students]);
+echo $twig->render('index.html.twig', ['students' => $students]);
