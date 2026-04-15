@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Les Students</h1>
-    {% for student in students %}
-        <p>{{ student.name }}</p>
-        <p>{{ student.age }}</p>
-        <p>{{ student.bio }}</p>
-    {% endfor %}
+    <header>
+        <h1>Les Students</h1>
+    </header>
+    <main class="students-container">
+        {% for student in students %}
+            <article class="student-card">
+                <h2>{{ student.name }}</h2>
+                <div class="student-meta">Âge : {{ student.age }}</div>
+                <p>{{ student.bio }}</p>
+            </article>
+        {% endfor %}
+    </main>
 </body>
 </html>
